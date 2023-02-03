@@ -103,12 +103,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Src\\System\\DatabaseConnector\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "Constructor\u0020de\u0020la\u0020clase\u0020DatabaseConnector.php",
             "url": "classes/Src-System-DatabaseConnector.html#method___construct"
         },                {
             "fqsen": "\\Src\\System\\DatabaseConnector\u003A\u003AgetConnection\u0028\u0029",
             "name": "getConnection",
-            "summary": "",
+            "summary": "Funcionalidad\u0020que\u0020realiza\u0020la\u0020conexi\u00F3n\u0020a\u0020la\u0020base\u0020de\u0020datos.",
             "url": "classes/Src-System-DatabaseConnector.html#method_getConnection"
         },                {
             "fqsen": "\\Src\\System\\DatabaseConnector\u003A\u003A\u0024dbConnection",

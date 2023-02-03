@@ -2,9 +2,16 @@
 namespace Src\System;
 
 class DatabaseConnector {
-
+     /**
+    * @access private
+    * @var DatabaseConnector
+    */	
     private $dbConnection = null;
 
+
+     /**
+    * Constructor de la clase DatabaseConnector.php
+    */
     public function __construct()
     {
         $host = getenv('DB_HOST');
@@ -24,6 +31,11 @@ class DatabaseConnector {
         }
     }
 
+
+      /**
+     * Funcionalidad que realiza la conexión a la base de datos.
+     * @return dbConnection
+     */
     public function getConnection()
     {
         return $this->dbConnection;
