@@ -2,14 +2,28 @@
 namespace Src\TableGateways;
 
 class PersonGateway {
-
+   /**
+   * @access private
+   * @var DatabaseConnector
+   */
     private $db = null;
 
+
+    /**
+    * Constructor de la clase PersonController.php. 
+    * @param $db base de datos donde vamos a conectarnos
+    */
     public function __construct($db)
     {
         $this->db = $db;
     }
 
+
+    /**
+    * Funcionalidad que devuelve un array asociativo con todos los registros de la tabla person.
+    * En caso de error al ejecutar la consulta, se muestra el mensaje del tipo de error.
+    * @return Result
+    */
     public function findAll()
     {
         $statement = "
@@ -28,6 +42,13 @@ class PersonGateway {
         }
     }
 
+
+     /**
+     * Funcionalidad que busca un registro con la id especificada en la tabla person. 
+     * En caso de error al ejecutar la consulta, se muestra el mensaje del tipo de error.     
+     * @param $id int
+     * @return Result
+     */   
     public function find($id)
     {
         $statement = "
@@ -48,6 +69,13 @@ class PersonGateway {
         }
     }
 
+
+    /**
+    * Funcionalidad que inserta un registro en la tabla person.
+    * En caso de error al ejecutar la consulta, se muestra el mensaje del tipo de error.
+    * @param $input Array    
+    * @return int
+    */
     public function insert(Array $input)
     {
         $statement = "
@@ -71,6 +99,14 @@ class PersonGateway {
         }
     }
 
+
+    /**
+    * Funcionalidad que actualiza un registro con el id indicado en la tabla person.
+    * En caso de error al ejecutar la consulta, se muestra el mensaje del tipo de error.
+    * @param $id número que identifica el registro que se va a actualizar.
+    * @param $input Array con el nuevo contenido del registro que se va a actualizar.
+    * @return int
+    */
     public function update($id, Array $input)
     {
         $statement = "
@@ -98,6 +134,13 @@ class PersonGateway {
         }
     }
 
+
+    /**
+    * Funcionalidad que elimina un registro con el id indicado en la tabla person.
+    * En caso de error al ejecutar la consulta, se muestra el mensaje del tipo de error.
+    * @param $id número que identifica el registro que se va a actualizar.
+    * @return int
+    */
     public function delete($id)
     {
         $statement = "

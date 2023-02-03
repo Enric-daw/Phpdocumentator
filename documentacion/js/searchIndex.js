@@ -123,32 +123,32 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Src\\TableGateways\\PersonGateway\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "Constructor\u0020de\u0020la\u0020clase\u0020PersonController.php.",
             "url": "classes/Src-TableGateways-PersonGateway.html#method___construct"
         },                {
             "fqsen": "\\Src\\TableGateways\\PersonGateway\u003A\u003AfindAll\u0028\u0029",
             "name": "findAll",
-            "summary": "",
+            "summary": "Funcionalidad\u0020que\u0020devuelve\u0020un\u0020array\u0020asociativo\u0020con\u0020todos\u0020los\u0020registros\u0020de\u0020la\u0020tabla\u0020person.",
             "url": "classes/Src-TableGateways-PersonGateway.html#method_findAll"
         },                {
             "fqsen": "\\Src\\TableGateways\\PersonGateway\u003A\u003Afind\u0028\u0029",
             "name": "find",
-            "summary": "",
+            "summary": "Funcionalidad\u0020que\u0020busca\u0020un\u0020registro\u0020con\u0020la\u0020id\u0020especificada\u0020en\u0020la\u0020tabla\u0020person.",
             "url": "classes/Src-TableGateways-PersonGateway.html#method_find"
         },                {
             "fqsen": "\\Src\\TableGateways\\PersonGateway\u003A\u003Ainsert\u0028\u0029",
             "name": "insert",
-            "summary": "",
+            "summary": "Funcionalidad\u0020que\u0020inserta\u0020un\u0020registro\u0020en\u0020la\u0020tabla\u0020person.",
             "url": "classes/Src-TableGateways-PersonGateway.html#method_insert"
         },                {
             "fqsen": "\\Src\\TableGateways\\PersonGateway\u003A\u003Aupdate\u0028\u0029",
             "name": "update",
-            "summary": "",
+            "summary": "Funcionalidad\u0020que\u0020actualiza\u0020un\u0020registro\u0020con\u0020el\u0020id\u0020indicado\u0020en\u0020la\u0020tabla\u0020person.",
             "url": "classes/Src-TableGateways-PersonGateway.html#method_update"
         },                {
             "fqsen": "\\Src\\TableGateways\\PersonGateway\u003A\u003Adelete\u0028\u0029",
             "name": "delete",
-            "summary": "",
+            "summary": "Funcionalidad\u0020que\u0020elimina\u0020un\u0020registro\u0020con\u0020el\u0020id\u0020indicado\u0020en\u0020la\u0020tabla\u0020person.",
             "url": "classes/Src-TableGateways-PersonGateway.html#method_delete"
         },                {
             "fqsen": "\\Src\\TableGateways\\PersonGateway\u003A\u003A\u0024db",
